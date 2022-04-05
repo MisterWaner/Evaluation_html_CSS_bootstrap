@@ -9,8 +9,66 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  
+  <!--Create a navbar with breadcrumb-->
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand active" href="#">Une virée dans les airs</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Présentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nos projets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb ps-2 pb-2">
+        <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+      </ol>
+    </nav>
+  </header>
+  <!--Create main content-->
+  <main>
+    <h1 class="title">Prêt pour une virée dans les airs ?</h1>
+    <section class="content">
+      <article class="imgContainer1">
+        <img class="avionAccueil" src="./ressources/avion_accueil.jpg" alt="un bel avion à hélices">
+      </article>
+      <article class="imgContainer2">
+        <img class="avionAccueil" src="./ressources/avion_accueil2.jpg" alt="un deuxième avion à hélices">
+      </article>
+    </section>
+    <section class="content">
+      <h2 class="title">Pour un peu de bonheur dans leurs yeux...</h2>
+      <article class="txtContainer">
+        <p class="textAccueil">Parce que leur vie n'est pas simple tous les jours.<br> 
+          Que leurs luttent quotidiennes font d'eux des héros. Nous avons décidé de leurs donner un moment de répis.<br>
+          Bienvenue sur la page d'<u>Une virée dans les airs.</u>
+          </p>
+      </article>
+    </section>
+  </main>
+  <!--Create a footer-->
+  <footer class="footer">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col"></div>
+        </div>
+      </div>
+    </nav>
+  </footer>
+
 
   <script src="./bootstrap.bundle.min.js"></script>
 </body>

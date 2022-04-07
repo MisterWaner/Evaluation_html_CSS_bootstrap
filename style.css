@@ -122,6 +122,11 @@ nav {
     padding-right: 25px; 
     margin-top: 10px;
   }
+
+  nav {
+    background-color: lightskyblue;
+    width: 97%;
+  }
 }
 
 button {

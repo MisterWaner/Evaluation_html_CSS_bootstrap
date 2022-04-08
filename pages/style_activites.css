@@ -14,3 +14,49 @@ body {
 nav {
   background-color: lightskyblue;
 }
+
+h5 {
+  text-decoration: underline;
+}
+
+.title {
+  color: darkblue;
+  text-align: center;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+.content {
+  width: 98%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardContainer {
+  margin: auto;
+}
+
+.cardStructure {
+  margin: 20px;
+}
+
+.cardBody {
+  background-color: lightskyblue;
+}
+
+.text {
+  color: darkblue;
+  font-weight: 700;
+  text-align: justify;
+}
+
+.footer {
+  background-color: lightskyblue;
+  padding-top: 10px;
+}
+
+.smallFooter {
+  text-align: center;
+}

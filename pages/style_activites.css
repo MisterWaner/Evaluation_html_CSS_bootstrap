@@ -19,6 +19,11 @@ h5 {
   text-decoration: underline;
 }
 
+img {
+  width: 250px;
+  height: 200px;
+}
+
 .title {
   color: darkblue;
   text-align: center;
@@ -94,9 +99,10 @@ h5 {
   .cardStructure {
     width: 17rem;
   }
-  
-  img {
-    width: 250px;
-    height: 200px;
+}
+
+@media only screen and (min-width: 1281px) {
+  .cardStructure {
+    width: 20rem; 
   }
 }

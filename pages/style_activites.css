@@ -40,6 +40,8 @@ h5 {
 
 .cardStructure {
   margin: 20px;
+  box-shadow: 10px 10px 5px darkblue;
+  border-color: black;
 }
 
 .cardBody {
@@ -59,4 +61,42 @@ h5 {
 
 .smallFooter {
   text-align: center;
+}
+
+@media only screen and (max-width: 479px) {
+  .cardStructure {
+    width: 15rem;
+
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .cardStructure {
+    width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .cardStructure {
+    width: 20rem; 
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cardStructure {
+    width: 17rem;
+  }
+  
+  img {
+    width: 250px;
+    height: 200px;
+  }
 }
